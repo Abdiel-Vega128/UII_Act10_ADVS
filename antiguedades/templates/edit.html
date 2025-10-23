@@ -1,0 +1,32 @@
+{% extends 'antiguedades/base.html' %}
+{% block body %}
+
+<h1 class="my-4 text-center">Actualizar Antigüedad</h1>
+
+{% if success %}
+    <div class="alert alert-success text-center" role="alert">
+        La antigüedad **{{ antiguedad.nombre_pieza }}** ha sido actualizada exitosamente. <a href="{% url 'index' %}" class="alert-link">Ver todas las antigüedades</a>.
+    </div>
+{% endif %}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-header"><i class="fa-solid fa-pen-to-square fa-lg me-2"></i>Actualizar Registro</div>
+            <div class="card-body">
+                <form method="POST" action="{% url 'edit' antiguedad.pk %}">
+                    {% csrf_token %}
+                    
+                    {{ form.as_p }}
+                    
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <a href="{% url 'index' %}" class="btn btn-secondary me-md-2">Cancelar</a>
+                        <button type="submit" class="btn btn-primary">Actualizar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
