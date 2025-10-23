@@ -3,6 +3,8 @@
 <img width="1920" height="673" alt="image" src="https://github.com/user-attachments/assets/f42f41dd-c54a-445d-9020-3a3a598ced51" />
 # Ver producto
 <img width="1920" height="517" alt="image" src="https://github.com/user-attachments/assets/9c1b93f0-e98a-4b1c-8334-9c100c125890" />
+# Añadir registro
+<img width="1920" height="590" alt="image" src="https://github.com/user-attachments/assets/fce0fe2b-d99b-4130-ae7e-66d01cebeae8" />
 # Editar 
 <img width="1916" height="547" alt="image" src="https://github.com/user-attachments/assets/74930324-d7e9-4e4b-9843-d7537966499f" />
 # Registro editado 
